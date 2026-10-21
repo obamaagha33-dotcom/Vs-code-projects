@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta 
+       name="description"
+       content="GCE Study Companion help cameroon GCE students revise subjects, practise questions, and track their progress.">
+  <title>GCE Study Companion</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+
+<body>
+  <header class="topbar">
+    <a class ="brand" href="#home" aria-lablel="GCE study companion home ">
+    <span class="brand-mark>"G</span>
+    <span>GCE study companion</span>    
+
+    </a>
+    <nav class="navigation" aria-label="Main navigation">
+        <a href="#home"class="nav*link active">Home</a>
+        <a href="#subjects" class="nav-link">My Subjects</a>
+        <a href="#practice" class="nav-link">Practice</a>
+        <a href="#progress" class="nav-link">MyProgress</a>
+    </nav>
+</header>
+
+
+<main class="page-container" id="home">
+  <section class="hero">
+    <div class="hero-content">
+        <p class="eyebrow">YOUR LEARNING SPACE</p>
+
+        <h1>Prepare smarter.<br><span>Achieve more</span></h1>
+
+        <p class="hero-description">
+            Your personal companion for GCE Advance Level revision.
+            Learning topics, practising questions, and build confident one 
+            session at a time.
+        </p>
+
+        <a class="button button-primary" href="#subjects">
+            Get Started
+        </a>
+
+        <p class="hero-note">
+            Built for students preparing for the cameroon GCE Advanced Level exams.
+        </p>
+    </div>
+
+
+    <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="book-illustration">
+            <span class="book-symbol">📚GCE</span>
+            <span class="book-line"></span>
+            <span class="book-line short"></span>    
+            <span class="book-caption">LEARN . PRACTICE . GROW</span>
+        </div>
+        <span class="floating-note note-one">+ Knowledge</span>
+        <span class="floating-note note-two">Your next goal</span>
+    </div> 
+  </section>
+
+  <section class="section" id="progress">
+    <div class="section-heading">
+        <div>
+            <p class="eyebrow">YOUR JOURNEY</p>
+            <h2>Your Study overview</h2> 
+        </div>
+
+    <div>
+        <p class="section-subtitle">Every Question is a chance to improve.</p>
+ </div>
+
+ <div class="stats-grid">
+     <div article class="stat-card">
+        <span class="stat-icon purple">◎</span>
+         <p class="stat-value" id="quizzes-completed">0</p>
+         <p class="stat-label">Quizzes Completed</p>
+         <p class="stat-foot">Keep up the good work!</p>
+    <article class="stat-card">
+      <span class="stat*icon green">✓</span>
+      <p class="stat-label"></p>Questions answered</p>
+      <p class="stat-foot">Knowledge in action</p>
+    </article>
+    
+    <article class="stat-card">
+        <span class="stat-icon orange">★</span>
+        <p class="stat-label">Correct Answers</p>
+        <p class="stat-value" id="correct-answers">0%</p>
+        <p class="stat-foot">Accuracy across your quizzes</p>
+    </article>
+ </div>
+</section>
+
+<section class="sction" id="subjects">
+  <div class="section-heading">
+    <div>
+        <p class="eyebrow">CHOOSE YOUR NEXT STEP</p>
+        <h2>Your subjects</h2>
+    </div>
+    <span class="count-label">5 subjects</span>
+  </div>  
+
+  <div class="section study-section" id="subject-grid"></div>
+</section>
+
+<section class="section study-section" id="practice">
+    <div class="section-heading">
+        <div>
+            <p class="eyebrow">ACTIVE REVISION</p>
+            <h2 id="practice-heading">Ready to practice?</h2>
+        </div>  
+    </div>
+
+    <div class="practice-panel" id="practice-panel">
+        <div>
+            <h3>your next revision sesseion starts here.</h3>
+            <p>choose a subject above to explore its topics and try a quiz</p>
+        </div>
+        <a class="button button-primary" href="#subjects">choose a subject</a>
+    </div>
+</section>
+
+<footer class="footer">
+    <a class="brand footer-brand" href="#home">
+        <span class="brand-mark">G</span>
+        <span>GCE Study Companion</span>
+    </a>
+</footer>
+
+</main>
+
+<div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
